@@ -28,7 +28,7 @@ description: 从零开始理解 Mihomo。
 
 ## 为什么需要单独写一篇？
 
-官方 wiki（ https://wiki.metacubex.one/ ）写得很全，但默认你已经知道：
+官方 wiki（https://wiki.metacubex.one/）写得很全，但默认你已经知道：
 
 - 什么是代理
 - 什么是节点
@@ -38,7 +38,7 @@ description: 从零开始理解 Mihomo。
 
 零基础的人打开 wiki，第一反应通常是：
 
-> 这ᵀᴹ都是什么鬼？
+> 这都是什么鬼？
 
 而网上的教程又经常一上来就甩一堆完整配置，中间夹杂各种「建议开启 fake-ip」「推荐用 rule-set」之类的话，新手根本不知道这些东西在解决什么问题。
 
@@ -57,10 +57,12 @@ description: 从零开始理解 Mihomo。
 ## 推荐阅读顺序
 
 1. [Mihomo 到底是什么？](./what-is-mihomo)
-2. [代理、节点、协议到底是什么？](./proxy-node-protocol)
-3. [规则和代理组是什么？](./rules-and-groups)
-4. [DNS 到底是什么？](./dns)
-5. [流量是怎么进到 Mihomo 的？](./inbound)
-6. [看完这些之后该干什么？](./next)
+2. [一条请求怎么走完](./how-it-works)
+3. [代理、节点、协议](./proxy-node-protocol)
+4. [规则和代理组](./rules-and-groups)
+5. [DNS](./dns)
+6. [流量怎么进来](./inbound)
+7. [接下来](./next)
+8. [附录：命令和路径](./appendix)
 
-先把概念搞清楚，再去碰配置和官方 wiki，会轻松很多。
+概念过完后，去「快速开始」动手；字段去「配置参考」和官方 wiki。

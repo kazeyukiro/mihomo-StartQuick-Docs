@@ -1,33 +1,26 @@
 ---
-sidebar_position: 7
+sidebar_position: 8
 title: 接下来该干什么？
 ---
 
 # 看完概念之后
 
-前面几章如果都能对上号，再去读配置就不会完全两眼一抹黑。
+前面如果都能对上号，再去读配置就不会完全两眼一抹黑。
 
 可以按这个顺序动手：
 
-1. **官方 wiki**  
-   https://wiki.metacubex.one/  
-   先翻 General、DNS、Proxies、Proxy Groups、Rules。知道每块在解决什么问题，再抠字段。
+1. **快速开始**  
+   下载 → 最小配置 → 验证 → [基础分流](../getting-started/basic-routing) → [图形客户端](../getting-started/gui-clients)
 
-2. **自己跑一份最小配置**  
-   别一上来抄几百行「终极配置」。  
-   `mixed-port` + 少数节点 + 几条规则，能通再加东西。  
-   仓库「快速开始」就是按这个节奏写的。
+2. **官方 wiki**  
+   https://wiki.metacubex.one/  
+   先翻 General、DNS、Proxies、Proxy Groups、Rules。
 
 3. **一次只加一类功能**  
-   组 → DNS → 订阅 / rule-set → TUN……  
-   每加一样，弄清它补的是哪个缺口。
+   组 → DNS → 订阅 / rule-set → TUN……
 
 4. **出问题先看日志**  
-   `log-level` 先设成 `info` 或 `debug`。
+   `log-level: info` 或 `debug`。常用命令见[附录](./appendix)。
 
----
-
-Mihomo 只负责按你的配置转发和分流。  
-节点质量、协议是否被干扰、YAML 写错，它都包办不了。
-
-问人的时候尽量带上：精简后的配置（密码打码）和相关日志。官方 wiki 和社区比盲改配置靠谱。
+Mihomo 只按你的配置转发和分流。节点质量、协议环境、YAML 写错，它包办不了。  
+问人时尽量带精简配置（密码打码）和相关日志。

@@ -8,11 +8,13 @@ const sidebars = {
       items: [
         'level-0/index',
         'level-0/what-is-mihomo',
+        'level-0/how-it-works',
         'level-0/proxy-node-protocol',
         'level-0/rules-and-groups',
         'level-0/dns',
         'level-0/inbound',
         'level-0/next',
+        'level-0/appendix',
       ],
     },
     {
@@ -23,6 +25,9 @@ const sidebars = {
         'getting-started/install',
         'getting-started/first-config',
         'getting-started/first-proxy',
+        'getting-started/basic-routing',
+        'getting-started/gui-clients',
+        'getting-started/subscription',
       ],
     },
     {
