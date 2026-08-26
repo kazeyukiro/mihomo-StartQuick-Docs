@@ -48,9 +48,9 @@ rules:
 
 ---
 
-## 和「机场订阅一键导入」
+## 和「多机场订阅聚合」
 
-图形客户端里的「添加订阅」底层往往就是 provider 或等价逻辑。  
+一些客户端里的「多机场订阅聚合」底层往往就是 provider 或等价逻辑。  
 命令行用户则是自己写 `proxy-providers` + 组 `use`。
 
 过滤节点名、排除某协议，用 `filter` / `exclude-filter` / `exclude-type`（官方有示例）。
