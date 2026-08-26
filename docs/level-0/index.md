@@ -28,7 +28,7 @@ description: 从零开始理解 Mihomo。
 
 ## 为什么需要单独写一篇？
 
-官方 wiki（https://wiki.metacubex.one/）写得很全，但默认你已经知道：
+官方 wiki（ https://wiki.metacubex.one ）写得很全，但默认你已经知道：
 
 - 什么是代理
 - 什么是节点
