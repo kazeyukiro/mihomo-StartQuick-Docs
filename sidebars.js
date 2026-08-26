@@ -24,6 +24,7 @@ const sidebars = {
         'getting-started/index',
         'getting-started/install',
         'getting-started/first-config',
+        'getting-started/annotated-config',
         'getting-started/first-proxy',
         'getting-started/basic-routing',
         'getting-started/gui-clients',

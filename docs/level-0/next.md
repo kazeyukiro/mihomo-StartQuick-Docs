@@ -10,7 +10,7 @@ title: 接下来该干什么？
 可以按这个顺序动手：
 
 1. **快速开始**  
-   下载 → 最小配置 → 验证 → [基础分流](../getting-started/basic-routing) → [图形客户端](../getting-started/gui-clients)
+   下载 → [旁注版小配置](../getting-started/annotated-config) → 验证 → [基础分流](../getting-started/basic-routing) → [订阅](../getting-started/subscription) / [图形客户端](../getting-started/gui-clients)
 
 2. **官方 wiki**  
    https://wiki.metacubex.one/  
