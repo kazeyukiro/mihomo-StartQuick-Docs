@@ -30,10 +30,13 @@ const sidebars = {
       label: '⚙️ 配置参考',
       items: [
         'config/index',
+        'config/general',
+        'config/inbound',
         'config/proxies',
         'config/proxy-groups',
         'config/rules',
         'config/dns',
+        'config/providers',
       ],
     },
     'faq',
