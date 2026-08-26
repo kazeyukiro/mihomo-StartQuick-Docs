@@ -5,34 +5,26 @@ title: 配置参考
 
 # 配置参考
 
-官方配置总入口：https://wiki.metacubex.one/config/
+官方入口：https://wiki.metacubex.one/config/  
+官方完整示例：https://github.com/MetaCubeX/mihomo/blob/Meta/docs/config.yaml
 
-完整示例配置（官方仓库）：https://github.com/MetaCubeX/mihomo/blob/Meta/docs/config.yaml
-
-本站这一块不是把官方文档逐字抄一遍，而是按「配置文件里常见大块」用人话说明：每块干什么、常见字段什么意思、新手先动哪些。
-
-协议字段特别细的（每种加密、每种 transport）以官方为准，这里只点到「你大概会碰到什么」。
-
-## 配置文件大致长什么样
+这里按配置文件里常见的几大块说明：每块干什么、常见字段什么意思。  
+单个协议的全部加密方式、transport 细节，直接看官方对应页，免得和内核版本脱节。
 
 ```text
-全局选项（端口、模式、API、geo……）
-入站（流量怎么进：mixed-port / tun / listeners）
+全局（端口、模式、API、geo…）
+入站（mixed-port / tun / listeners）
 DNS
-proxies（节点）
-proxy-groups（策略组）
-proxy-providers / rule-providers（订阅与规则集，可选）
-rules（路由规则）
+proxies
+proxy-groups
+proxy-providers / rule-providers（可选）
+rules
 ```
-
-侧边栏顺序建议：
 
 1. [全局配置](./general)
 2. [入站](./inbound)
-3. [出站代理 proxies](./proxies)
-4. [策略组 proxy-groups](./proxy-groups)
-5. [路由规则 rules](./rules)
+3. [出站 proxies](./proxies)
+4. [策略组](./proxy-groups)
+5. [规则](./rules)
 6. [DNS](./dns)
 7. [代理集合 / 规则集合](./providers)
-
-字段有更新时，仍以官方 wiki 为准。
