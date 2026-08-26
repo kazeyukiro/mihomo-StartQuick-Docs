@@ -11,8 +11,8 @@ const sidebars = {
         'level-0/proxy-node-protocol',
         'level-0/rules-and-groups',
         'level-0/dns',
-        'concepts/tun',
-        'concepts/dns',
+        'level-0/inbound',
+        'level-0/next',
       ],
     },
     {
