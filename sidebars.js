@@ -8,6 +8,7 @@ const sidebars = {
       items: [
         'level-0/index',
         'level-0/what-is-mihomo',
+        'level-0/clash-meta-mihomo',
         'level-0/how-it-works',
         'level-0/proxy-node-protocol',
         'level-0/rules-and-groups',

@@ -5,6 +5,16 @@ title: 常见问题
 
 # 常见问题
 
+## Mihomo、Clash Meta、Clash 是同一个东西吗？
+
+不是三个并列产品，是一条演进线：
+
+- **Clash（原版）**：早期项目，已停更  
+- **Clash Meta**：社区分支，后来改名  
+- **Mihomo**：改名后的正式内核名，当前在维护
+
+更细的说明：[Clash、Clash Meta、Mihomo](./level-0/clash-meta-mihomo)
+
 ## Mihomo 是客户端吗？
 
 它是代理**核心**。  
